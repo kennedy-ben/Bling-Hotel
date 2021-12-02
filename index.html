@@ -1,11 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <link rel = "icon" href = "images/logo.png" type = "image/png">
 </head>
 <body>
- 
+    <!-- header -->
+    <header class = "header" id = "header">
+        <div class = "head-top">
+            <div class = "site-name">
+                <span>BLING HOTEL</span>
+            </div>
+            <div class = "site-nav">
+                <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+            </div>
+        </div>
+
+        <div class = "head-bottom flex">
+            <h2>We Make You Feel Better Than At Home.</h2>
+            <p>The Bling Hotel offers 44 accommodations with safes and coffee/tea makers. Beds feature premium bedding. LED televisions come with premium satellite channels. Bathrooms include showers, slippers, and complimentary toiletries.
+
+                Guests can surf the web using the complimentary wireless Internet access. Business-friendly amenities include desks and phones. Housekeeping is provided daily.
+                
+                Recreational amenities at the hotel include a fitness center.</p>
+            <button type = "button" class = "head-btn"> <a href="#rooms"> GET STARTED </a></button>
+        </div>
+    </header>
+    <!-- end of header -->
+    <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "contact.html">contact us</a></li>
+            </ul>
+            <button class = "btn log-in"> <a href="login.html">log in</a></button>
+        </div>
+    <!-- end of side navbar -->
+    <!-- fullscreen modal -->
+    <div id = "modal"></div>
+    <!-- end of fullscreen modal -->
+    <!-- body content  -->
+    <section class = "services sec-width" id = "services">
+        <div class = "title">
+            <h2>services</h2>
+        </div>
+        <div class = "services-container">
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-utensils"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Food Service/ Food Runner</h2>
+                    <p> the businesses, institutions, and companies which prepare meals outside the home. It includes restaurants, school and hospital cafeterias, catering operations, and many other formats.There are many different types of food and beverage service types or procedures, but the major category of the food service is 1) Plate Service, 2) Cart Service, 3) Plater Service, 4) Buffet Service and 5) Family style service.
+                    </p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-swimming-pool"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Refreshment</h2>
+                    <p>
+                        making you feel more lively when you have been feeling tired and hot. Lemonade tastes so refreshing on a hot day. a light refreshing breeze. Synonyms and related words.
+                        Refreshment is something you eat, drink, or do to make yourself feel more energetic or stronger. An example of refreshment is having a cup of tea during a break at a conference. noun. 2. The action of refreshing; a means of restoring strength, energy or vigour.</p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-broom"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Housekeeping</h2>
+                    <p>As a hotel housekeeper, you dust and clean hotel rooms as well as the common areas in the hotel where you work. Your responsibilities include restocking supplies, delivering items to guests' rooms, and moving your cart of cleaning supplies and equipment from room to room in the hotel. responsible for cleanliness, maintenance, aesthetic upkeep of rooms, public area, </p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-door-closed"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Room Security</h2>
+                    <p>Safe rooms are typically equipped with basic emergency and survival items such as a flashlight, blankets, a first-aid kit, water, packaged food, self-defense tools, a gas mask, and a simple portable toilet.</p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+        </div>
+    </section>
+    <!-- The start of room options -->
+    <section class = "rooms sec-width" id = "rooms">
+        <div class = "title">
+            <h2>rooms</h2>
+        </div>
+        <div class = "rooms-container">
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Family Bedroom</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            The most expensive room in our hotel.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Can carry up to 9 people!.
+                        </li>
+                    </ul>
+                    <p>The family bedroom is our best and most luxurious rooms available for families to enjoy together</p>
+                    <p class = "rate">
+                        <span>$1200.00 /</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn"><a href="#" onclick="myFunction()">Book Now</a></button>
+                </div>
+            </article>
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "https://media.istockphoto.com/photos/interior-of-a-modern-luxury-hotel-double-bed-bedroom-picture-id1163498940?b=1&k=20&m=1163498940&s=170667a&w=0&h=5TRSRlxZVnU_hVpPTjcbok7xg8Zrl4gmntmkyuAKVSM=" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Double Bedrooms</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            The double bedroom carries two people at a time.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            They are located in the west wing of the hotel.
+                        </li>
+                    </ul>
+                    <p>The double bedrooms are located in the west wing of the hotel facing the beautiful scenery outside.</p>
+                    <p class = "rate">
+                        <span>$700.00 /</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn"><a href="#" onclick="doubleBed()">Book Now</a></button>
+                </div>
+            </article>
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "https://media.istockphoto.com/photos/3d-render-of-luxury-hotel-room-picture-id1277385898?b=1&k=20&m=1277385898&s=170667a&w=0&h=QOzC7zZV5SuiIo2lJ2eOuh18beeZgjkXSiUCvnwffjk=" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>Single Bedrooms</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                           They have huge beds
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Located in the 3rd and 4th floor of our hotel
+                        </li>
+                        
+                    </ul>
+                    <p>Our single bedrooms have 24/7 room service and free foods</p>
+                    <p class = "rate">
+                        <span>$500.00 /</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn"><a href="#" onclick="singleBed()">Book Now</a></button>
+                </div>
+            </article>
+            <!-- end of single room -->
+        </div>
+    </section>
+    <!-- The end of room options -->
+    <!-- footer -->
+    <footer class = "footer">
+        <div class = "footer-container">
+            <div>
+                <h2>About Us </h2>
+                <p>The Bling Hotel is located in Nairobi. Yaya Centre is worth checking out if shopping is on the agenda, while those wishing to experience the area’s popular attractions can visit Giraffe Centre and AFEW Giraffe Centre.</p>
+                <ul class = "social-icons">
+                    <li class = "flex">
+                        <i class = "fa fa-twitter fa-2x"></i>
+                    </li>
+                    <li class = "flex">
+                        <i class = "fa fa-facebook fa-2x"></i>
+                    </li>
+                    <li class = "flex">
+                        <i class = "fa fa-instagram fa-2x"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Privacy</h2>
+                <a href = "#">About Us</a>
+                <a href = "#">Contact Us</a>
+                <a href = "#services">Services</a>
+            </div>
+
+            <div>
+                <h2>Need Any Help</h2>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>
+                        105 Parklands, Nairobi West, Nairobi, Kenya
+                    </span>
+                </div>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-phone-alt"></i>
+                    </span>
+                    <span>
+                        +254700000000
+                    </span>
+                </div>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-envelope"></i>
+                    </span>
+                    <span>
+                        info@Bling Hotel.com
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="app.js"></script>
 </body>
 </html>
