@@ -59,7 +59,7 @@ img{
 
 /* header */
 .header{
- background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center/cover no-repeat;
+ background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=1600") center/cover no-repeat;
  min-height: 100vh;
  color: #fff;
  padding: 25px;
