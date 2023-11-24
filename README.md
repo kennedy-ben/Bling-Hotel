@@ -34,6 +34,6 @@ You need the following to work on the project:
 -A text Editor
 
 Live Link To website
-
-
+ https://bling-hotel.web.app
+I have hosted it using Firebase the documentation is this (https://firebase.google.com/) or you can watch a 10-minute video from this link (https://www.youtube.com/watch?v=DjDBBhnvN4I)
 
